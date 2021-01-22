@@ -42,11 +42,11 @@ app.post('/add', postData);
 
 function postData(req, res) {
   newEntery = {
-    temp: req.body.main.temp,
+    temp: req.body.temp,
     date: req.body.date,
     userResponse: req.body.userResponse
   }
 
-  projectData.push(newEntery);
+  projectData = newEntery;
   console.log(projectData);
 }
