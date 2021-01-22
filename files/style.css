@@ -1,0 +1,86 @@
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  height: 753px;
+  overflow: hidden;
+  background: radial-gradient(#48cae4, #023e8a);
+}
+
+/* first h1 tag */
+h1{
+  color: #caf0f8;
+  text-align: center;
+  margin: 40px 0;
+}
+
+/* style of the header*/
+header{
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 0 auto
+}
+
+.holder,
+.entryHolder{
+  width: 50%;
+  height: 80%;
+  margin: 20px;
+}
+
+/* style of all inputs */
+label{
+  display: block;
+  margin: 30px 0 15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #caf0f8
+}
+
+input{
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: none;
+  width: 320px;
+}
+textarea{
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+}
+
+/* style of the button*/
+#generate{
+  background: #023e8a;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 10px;
+  width: 140px;
+  font-size: 18px;
+  cursor: pointer;
+  display: block;
+  margin-top: 30px;
+}
+
+/* style of the elements of entryHolder div */
+.entryHolder h2{
+  color: rgba(2, 62, 138, 0.8);
+  text-transform: uppercase;
+  margin-bottom: 30px;
+
+}
+
+.entryHolder div{
+  font-size: 22px;
+  font-weight: bold;
+  color: #caf0f8;
+  margin: 15px 60px;
+  word-spacing: 2px;
+}

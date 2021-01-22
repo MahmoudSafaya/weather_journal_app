@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Journal App</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <h1>Weather Journal App</h1>
+
+  <!-- Each id was named as what came in PROJECT SPECIFICATION -->
+
+  <header>
+    <div class="holder">
+      <label for="zip">Enter Zip Code</label>
+      <input type="text" id="zip" name="zip" placeholder="Enter zip code here">
+
+      <label for="textarea">How are you feelin today ?</label>
+      <textarea name="textarea" id="feelings" cols="38" rows="6" placeholder="Put your feelings.."></textarea>
+
+      <button id="generate">Generate</button>
+    </div>
+
+    <div id="entryHolder" class="entryHolder">
+      <h2>Result is...</h2>
+      
+      <div id="temp"></div>
+      <div id="date"></div>
+      <div id="content"></div>
+    </div>
+  </header>
+
+
+  
+  <script src="./app.js"></script>
+</body>
+</html>
