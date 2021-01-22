@@ -7,7 +7,8 @@ const baseurl = 'http://api.openweathermap.org/data/2.5/weather?zip=';
 // after zip you must enter the zipCode then &appid=apiKey
 
 // Personal API Key for OpenWeatherMap API
-const apiKey = 'a77310ff79aee5ffdf371098704c1e11';
+// Please enter your own api key
+const apiKey = '';
 
 const fullApiKey = '&appid=' + apiKey + '&units=metric';
 
