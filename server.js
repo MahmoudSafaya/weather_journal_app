@@ -20,7 +20,7 @@ app.use(cors());
 app.use(express.static('files'));
 
 // Spin up the server
-const port = 3000;
+const port = 'https://mahmoudsafaya.github.io/weather_journal_app/';
 const server = app.listen(port, listening);
 
 // Callback to debug
